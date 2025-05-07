@@ -1,7 +1,5 @@
 #!/bin/bash
 
-SCRIPT_NAME=$(basename "$0")
-
 if [[ "$1" == "--help" || "$1" == "-h" ]]; then
   echo "-d, --date           Wyświetla dzisiejszą datę"
   echo "-l, --logs [N]       Tworzy N plików logx.txt (domyślnie 100)"
